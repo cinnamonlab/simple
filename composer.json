@@ -1,0 +1,16 @@
+{
+    "name": "hajime3333out/SimpleWebFramework",
+    "description": "Simple Framework.",
+
+    "require": {
+        "hajime3333out/framework": "master"
+    },
+    "autoload": {
+        "classmap": [
+            "database", "app/Exceptions","app/Http/Controllers","app"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
