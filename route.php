@@ -1,6 +1,8 @@
 <?php
 
-Router::action('GET', '/hello', function(){
+use Framework\Router;
 
+Router::action('GET', '/hello', function(){
+    echo "hello";
 });
 
