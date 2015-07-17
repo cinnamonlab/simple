@@ -6,9 +6,6 @@
         "hajime3333out/framework": "dev-master"
     },
     "autoload": {
-        "classmap": [
-            "database", "app/Exceptions","app/Http/Controllers","app"
-        ],
         "psr-4": {
             "App\\": "app/"
         }
