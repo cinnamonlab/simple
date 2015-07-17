@@ -1,9 +1,9 @@
 {
-    "name": "hajime3333out/SimpleWebFramework",
+    "name": "hajime3333out/simple",
     "description": "Simple Framework.",
 
     "require": {
-        "hajime3333out/framework": "master"
+        "hajime3333out/framework": "dev-master"
     },
     "autoload": {
         "classmap": [
