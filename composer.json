@@ -1,6 +1,7 @@
 {
     "name": "hajime3333out/simple",
     "description": "The Simple Framework.",
+    "minimum-stability": "RC",
     "type": "library",
     "keywords": ["framework"],
     "license": "MIT",
@@ -20,4 +21,5 @@
             "App\\": "app/"
         }
     }
+
 }
