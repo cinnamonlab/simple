@@ -2,9 +2,13 @@
 
 namespace App\Controller;
 use Framework\Config;
+use Framework\Response;
 
 class SampleController {
     function hello( ) {
-        echo Config::get('app.sample');
+        return (new Response())
+            ->setContent(Config::get('app.sample'))
+            ->setContentType('text/plain')
+            ->setCode(200);
     }
 }
