@@ -2,7 +2,8 @@
 
 use Framework\Router;
 
-Router::action('GET', '/hello', function(){
-    echo "hello";
+Router::action('GET', '/welcome', function(){
+    echo "welcome";
 });
 
+Router::action('GET', '/hello', 'SampleController@hello');
