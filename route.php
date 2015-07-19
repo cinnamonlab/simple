@@ -1,9 +1,9 @@
 <?php
 
-use Framework\Router;
+use Framework\Route;
 
-Router::action('GET', '/welcome', function(){
+Route::action('GET', '/welcome', function(){
     echo "welcome";
 });
 
-Router::action('GET', '/hello', 'SampleController@hello');
+Route::action('GET', '/hello', 'SampleController@hello');
