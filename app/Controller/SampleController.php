@@ -7,7 +7,7 @@ use Framework\Response;
 class SampleController {
     function hello( ) {
         return (new Response())
-            ->setContent(Config::get('app.sample'))
+            ->setContent(Config::get('app.greeting') . Input::get('name', 'guest'))
             ->setContentType('text/plain')
             ->setCode(200);
     }
